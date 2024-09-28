@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #211f30;
+    margin-top: 50px;
+  }
+  h1 {
+    color: #bdd2e4;
+  }
+  p{
+    color: #789FCC;
+  }
+  input[type="number"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 80px;
+    text-align: center;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #eeceda;
+    color: #7A1CAC;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  button:hover {
+    background-color: #000;
+    transform: scale(1.05);
+
+  }
+  #result, #remainingGuesses {
+    font-size: 18px;
+    color: #fae7;
+  }
+  #result {
+    margin-top: 20px;
+  }
+  #remainingGuesses {
+    margin-top: 10px;
+  }
